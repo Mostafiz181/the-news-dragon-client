@@ -1,0 +1,41 @@
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+
+.box Button{
+  display: block;
+  padding: 20px 30px;
+  background-color: #D72050;
+  border-radius: 0px;
+  font-weight: bold;
+
+}
+
+.box .marquee{
+    line-height: 70px;
+    color: #403F3F;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+.btn-login{
+    display: block;
+    padding: 10px 30px;
+    border-radius: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar a{
+    color:  #706F6F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
