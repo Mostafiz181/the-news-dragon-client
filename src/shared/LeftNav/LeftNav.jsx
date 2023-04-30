@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import "./LeftNav.css"
 
 
-
-
 const LeftNav = () => {
     const [categories,setCategories]=useState([])
 
