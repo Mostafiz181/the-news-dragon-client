@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./LeftNav.css"
+import LeftCategory from '../LeftCategory/LeftCategory';
 
 
 const LeftNav = () => {
@@ -24,7 +25,10 @@ const LeftNav = () => {
                         </p>)
                     }
             </div>
+
+            <LeftCategory></LeftCategory>
         </div>
+        
     );
 };
 
